@@ -19,3 +19,10 @@
     }
   ]
 }
+cd ruta/a/eliezer-dashboard-pwa
+git init
+git add .
+git commit -m "Versión inicial del dashboard"
+git branch -M main
+git remote add origin https://github.com/tu_usuario/dashboard-eliezer.git
+git push -u origin main
